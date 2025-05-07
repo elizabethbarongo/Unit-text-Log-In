@@ -1,7 +1,7 @@
 
 const login = require('../login');
 
-// Mock the fetch function
+
 global.fetch = jest.fn();
 
 describe('login', () => {
